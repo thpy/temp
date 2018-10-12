@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/4725/Indihiang/Cores/Features
+END
+BaseLogAnalyzeFeature.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/12715/Indihiang/Cores/Features/BaseLogAnalyzeFeature.cs
+END
+LogCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/4725/Indihiang/Cores/Features/LogCollection.cs
+END
+LogFeature.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/4725/Indihiang/Cores/Features/LogFeature.cs
+END
+UserAgentFeature.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/12715/Indihiang/Cores/Features/UserAgentFeature.cs
+END

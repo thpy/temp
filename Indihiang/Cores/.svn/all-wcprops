@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/4725/Indihiang/Cores
+END
+LogInfoEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/4725/Indihiang/Cores/LogInfoEventArgs.cs
+END
+W3cExtendedLogParser.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/12715/Indihiang/Cores/W3cExtendedLogParser.cs
+END
+LogParser.cs
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/12715/Indihiang/Cores/LogParser.cs
+END
+ThreadBarrierExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/12715/Indihiang/Cores/ThreadBarrierExtensions.cs
+END
+LogParserQueue.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/4725/Indihiang/Cores/LogParserQueue.cs
+END
+LogProcessStatus.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/4725/Indihiang/Cores/LogProcessStatus.cs
+END
+EnumLogFile.cs
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/4725/Indihiang/Cores/EnumLogFile.cs
+END
+LogParserFactory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/12715/Indihiang/Cores/LogParserFactory.cs
+END
+BaseLogParser.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/12715/Indihiang/Cores/BaseLogParser.cs
+END
