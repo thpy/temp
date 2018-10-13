@@ -294,7 +294,7 @@ namespace Indihiang.Data
 
         #endregion
 
-        /*寫入數據到sqlite*/
+
         #region DumpData
         public bool InsertBulkDumpData(List<Indihiang.DomainObject.DumpData> dump)
         {
@@ -310,15 +310,14 @@ namespace Indihiang.Data
                 using (SQLiteCommand cmd = con.CreateCommand())
                 {
                     StringBuilder builder = new StringBuilder();
-                    builder.Append("insert into [log_data](fullfilename,a_time,a_day,a_month,server_ip,");
+                    builder.Append("insert into [log_data](fullfilename,a_day,a_month,server_ip,");
                     builder.Append("server_port,client_ip,page_access,query_page_access,access_username,");
                     builder.Append("user_agent,protocol_status,bytes_sent,bytes_received,referer,ip_country,time_taken,referer_class)");
-                    builder.Append(" values(@par1,@par18,@par2,@par3,@par4,@par5,@par6,@par7,@par8,@par9,@par10,@par11,@par12,@par13,@par14,@par15,@par16,@par17)");
+                    builder.Append(" values(@par1,@par2,@par3,@par4,@par5,@par6,@par7,@par8,@par9,@par10,@par11,@par12,@par13,@par14,@par15,@par16,@par17)");
 
                     cmd.CommandText = builder.ToString();
 
                     SQLiteParameter par1 = cmd.Parameters.Add("@par1", DbType.String);
-                    SQLiteParameter par18 = cmd.Parameters.Add("@par18", DbType.String);
                     SQLiteParameter par2 = cmd.Parameters.Add("@par2", DbType.Int32);
                     SQLiteParameter par3 = cmd.Parameters.Add("@par3", DbType.Int32);
                     SQLiteParameter par4 = cmd.Parameters.Add("@par4", DbType.String);
@@ -355,7 +354,7 @@ namespace Indihiang.Data
                         par15.Value = IndihiangHelper.GetStringLogItem(dump[i].IPClientCountry);
                         par16.Value = dump[i].TimeTaken;
                         par17.Value = IndihiangHelper.GetStringLogItem(dump[i].RefererClass);
-                        par18.Value = dump[i].Time;
+
                         cmd.ExecuteNonQuery();
                     }
                 }
