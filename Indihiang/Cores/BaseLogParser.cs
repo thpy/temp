@@ -59,7 +59,7 @@ namespace Indihiang.Cores
         {
             bool success = false;
             if (_dataQueue == null)
-                _dataQueue = new Thread(DumpData);
+                _dataQueue = new Thread(DumpData);//做保存數據的文件copy,數據保存，異步多線程
 
             _finish = false;
             _dataQueue.IsBackground = true;
